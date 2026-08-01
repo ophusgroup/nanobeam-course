@@ -13,7 +13,7 @@ title: Semicrystalline polymers
 
 :::{admonition} Hands-on tutorial
 :class: important
-- ▶️ [Flowline mapping of a semicrystalline polymer](https://drive.google.com/file/d/17G99GpRyoZBK7xFpPUVF-2AHsrq8nsnq/view?usp=drive_link) — from diffuse arcs to orientation histograms to flowline maps, working in polar coordinates (~45 min).
+- ▶️ [Flowline mapping of a semicrystalline polymer](https://drive.google.com/file/d/17G99GpRyoZBK7xFpPUVF-2AHsrq8nsnq/view?usp=drive_link) — from diffuse arcs to orientation histograms to flowline maps, working in polar coordinates.
 :::
 
 Semicrystalline polymers and small-molecule organic films — conjugated polymers for organic electronics, polyolefins, peptide and protein assemblies — derive their properties from nanoscale crystalline domains embedded in an amorphous matrix. Charge transport in an organic semiconductor, for example, depends on how the π-stacking direction of crystallites connects across the film. These materials are essentially impossible to characterize by conventional high-resolution imaging: they are extremely beam sensitive, with critical fluences of order 1–100 e⁻/Å², destroyed long before an atomic-resolution image can be formed [](doi:10.1021/acs.accounts.1c00073).

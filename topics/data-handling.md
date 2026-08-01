@@ -13,7 +13,7 @@ title: Data handling & calibration
 
 :::{admonition} Hands-on tutorial
 :class: important
-- ▶️ [py4DSTEM basics: 4D-STEM data & Bragg disk detection](https://drive.google.com/file/d/13YClaGiPYZFIyKlHZNIqNVq-IWRGgiwm/view?usp=drive_link) — load, browse, and virtually image a simulated polycrystalline Au dataset, then run your first disk detection (~15 min).
+- ▶️ [py4DSTEM basics: 4D-STEM data & Bragg disk detection](https://drive.google.com/file/d/13YClaGiPYZFIyKlHZNIqNVq-IWRGgiwm/view?usp=drive_link) — load, browse, and virtually image a simulated polycrystalline Au dataset, then run your first disk detection.
 :::
 
 Before any physics can come out of a 4D-STEM dataset, the data has to be loaded, organized, and — critically — calibrated. This module walks through the py4DSTEM data pipeline [](doi:10.1017/S1431927621000477): reading files, browsing the 4D datacube interactively, and applying the chain of calibrations that turn detector pixels into physical units.

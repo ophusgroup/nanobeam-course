@@ -13,7 +13,7 @@ title: Strain mapping
 
 :::{admonition} Hands-on tutorial
 :class: important
-- ▶️ [Strain mapping of a partially cycled LiFePO₄ battery cathode](https://drive.google.com/file/d/1aQaRR-XZzCZayfYsSDVuz7prLeolsVKI/view?usp=drive_link) — the full workflow from vacuum probe to strain maps, including the descan, ellipticity, and rotation calibrations (~45 min).
+- ▶️ [Strain mapping of a partially cycled LiFePO₄ battery cathode](https://drive.google.com/file/d/1aQaRR-XZzCZayfYsSDVuz7prLeolsVKI/view?usp=drive_link) — the full workflow from vacuum probe to strain maps, including the descan, ellipticity, and rotation calibrations.
 :::
 
 ```{image} ../assets/cover-strain.jpg

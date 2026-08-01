@@ -13,7 +13,7 @@ title: Amorphous materials & PDF
 
 :::{admonition} Hands-on tutorial
 :class: important
-- ▶️ [Pair distribution function of amorphous Ta](https://drive.google.com/file/d/1-fHnUWhyzVWk207TTyJSy-cSfJaQIXL8/view?usp=drive_link) — I(k) → S(k) → G(r), validated against the ground-truth atomic coordinates of the simulated sample (~30 min).
+- ▶️ [Pair distribution function of amorphous Ta](https://drive.google.com/file/d/1-fHnUWhyzVWk207TTyJSy-cSfJaQIXL8/view?usp=drive_link) — I(k) → S(k) → G(r), validated against the ground-truth atomic coordinates of the simulated sample.
 :::
 
 Glasses, amorphous thin films, liquids, and highly disordered solids have no unit cell — so the crystallographic toolkit of the morning sessions (Bragg disks, lattice vectors, orientation libraries) does not apply. But these materials are far from structureless: they have well-defined bond lengths, coordination shells, and often *medium-range order* (MRO) extending over 1–3 nm. This module covers how to quantify that structure from nanobeam diffraction [](doi:10.1146/annurev.matsci.35.082803.103337).

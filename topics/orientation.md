@@ -1,5 +1,5 @@
 ---
-title: Orientation mapping (ACOM)
+title: Orientation & phase mapping
 ---
 
 # Automated crystal orientation and phase mapping
@@ -11,10 +11,9 @@ title: Orientation mapping (ACOM)
 - Understand why precession improves pattern quality and matching reliability.
 :::
 
-:::{admonition} Hands-on tutorials
+:::{admonition} Hands-on tutorial
 :class: important
-- ▶️ [ACOM of AuAgPd nanowires](https://drive.google.com/file/d/1yAHg1Vwu_ZX8QOnPs01iww4mTST20h9c/view?usp=drive_link) — orientation mapping of experimental data recorded with a bullseye probe and a beamstop (~45 min).
-- ▶️ [Phase, orientation & strain of a two-phase Ti alloy](https://drive.google.com/file/d/1_DaUuEqq5vx_1ZM5R7zChEo7iA_ccprC/view?usp=drive_link) — the capstone: ACOM for the α and β phases, phase quantification, and strain extracted directly from the matched patterns (~45 min).
+- ▶️ [Phase, orientation & strain of a two-phase Ti alloy](https://drive.google.com/file/d/1_DaUuEqq5vx_1ZM5R7zChEo7iA_ccprC/view?usp=drive_link) — the capstone: ACOM for the α and β phases, phase quantification, and strain extracted directly from the matched patterns.
 :::
 
 ```{image} ../assets/cover-orientation.jpg

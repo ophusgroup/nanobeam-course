@@ -13,7 +13,7 @@ title: 2026 Agenda
 | 9:45 – 10:00 | [py4DSTEM demo: loading and calibrating data, 4D data browser](./topics/data-handling.md) | Stephanie | Colab demo |
 | 10:00 – 10:30 | ☕ Coffee break | | |
 | 10:30 – 11:15 | [Strain mapping](./topics/strain.md) | Stephanie | Colab demo |
-| 11:15 – 12:00 | [Automated crystal orientation mapping (ACOM)](./topics/orientation.md) | Colin | Colab demo |
+| 11:15 – 12:00 | [Orientation and phase mapping](./topics/orientation.md) | Colin | Colab demo |
 | 12:00 – 13:00 | 🥪 Lunch break | | |
 | 13:00 – 13:45 | [Virtual dark field and digital dark field imaging](./topics/virtual-imaging.md) | Ian | Colab demo |
 | 13:45 – 14:30 | [Machine-learning clustering for phase and domain mapping](./topics/ml-clustering.md) | Ian | Colab demo |
