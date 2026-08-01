@@ -1,0 +1,216 @@
+/* ============================================================
+   nanobeam-course — custom theming on top of MyST book-theme.
+   Loaded via `site.options.style` in myst.yml.
+
+   Accent: MSA blue rgb(20, 90, 220), lightened in dark mode
+   for contrast on the dark background.
+   ============================================================ */
+
+:root {
+  --nbc-accent: rgb(21, 87, 205);
+  --nbc-accent-soft: rgba(21, 87, 205, 0.12);
+}
+html.dark {
+  --nbc-accent: rgb(96, 150, 250);
+  --nbc-accent-soft: rgba(96, 150, 250, 0.18);
+}
+
+/* ---------- Site title (upper-left) ---------- */
+.myst-home-link,
+.myst-home-link span {
+  color: var(--nbc-accent) !important;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+.myst-home-link:hover span {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+}
+
+/* ---------- Top-nav links ---------- */
+.myst-top-nav-item {
+  font-weight: 500;
+}
+
+/* ---------- Article links ----------
+   Scoped to <article> so the home-link and navbar controls keep
+   their own colors. */
+article a:not(.myst-home-link),
+article .link,
+article .hover-link {
+  color: var(--nbc-accent) !important;
+}
+
+/* Cards: accent title, neutral body text */
+article a.myst-card {
+  color: inherit !important;
+}
+article a.myst-card .myst-card-title {
+  color: var(--nbc-accent);
+}
+article a.myst-card:hover {
+  border-color: var(--nbc-accent) !important;
+}
+
+/* ---------- Places book-theme still uses Tailwind blue ---------- */
+.myst-tab-item-header-active {
+  color: var(--nbc-accent) !important;
+  border-bottom-color: var(--nbc-accent) !important;
+}
+.myst-toc-item.active,
+.myst-toc-item-exact {
+  background-color: var(--nbc-accent-soft) !important;
+}
+.myst-toc-item:focus,
+.myst-toc-item:focus-visible {
+  outline-color: var(--nbc-accent) !important;
+}
+.myst-code-copy-icon {
+  color: var(--nbc-accent) !important;
+}
+.myst-code-copy-icon:hover {
+  opacity: 0.7;
+}
+.outline-blue-200 {
+  outline-color: var(--nbc-accent-soft) !important;
+}
+button.myst-search-bar:hover {
+  border-color: var(--nbc-accent) !important;
+  --tw-ring-color: var(--nbc-accent) !important;
+}
+
+/* ---------- Code blocks ----------
+   book-theme leaves `pre` at overflow-x: visible, so one long line pushes
+   the whole page sideways on narrow screens. Scroll inside the block
+   instead, and never let it widen the article. */
+article pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* ---------- Inline code spans ---------- */
+:not(pre) > code {
+  color: rgb(190, 24, 93);
+}
+html.dark :not(pre) > code {
+  color: rgb(244, 114, 182);
+}
+
+/* ---------- Left sidebar ----------
+   Smaller type, tighter rhythm, bold top-level sections. */
+.myst-primary-sidebar-toc {
+  font-size: 0.85rem;
+}
+.myst-primary-sidebar-toc .myst-toc-item {
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+}
+.myst-primary-sidebar-toc a.myst-toc-item {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.myst-primary-sidebar-toc .myst-toc-item > div {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+.myst-primary-sidebar-toc button svg {
+  height: 1.1rem;
+  width: 1.1rem;
+}
+/* Top-level sections (Agenda, Course Blocks, ...) in bold */
+.myst-toc > div > .myst-toc-item {
+  font-weight: 700;
+}
+/* book-theme marks the section containing the current page in blue; make it
+   bold accent instead, and keep the page links themselves accented when active. */
+.myst-primary-sidebar-toc .text-blue-800,
+html.dark .myst-primary-sidebar-toc .dark\:text-blue-200 {
+  color: var(--nbc-accent) !important;
+  font-weight: 700;
+}
+.myst-primary-sidebar-toc a.myst-toc-item-exact,
+.myst-primary-sidebar-toc a.myst-toc-item.active {
+  color: var(--nbc-accent) !important;
+  font-weight: 700;
+}
+/* The site title is already in the top bar; drop the duplicate
+   root entry at the top of the sidebar. */
+.myst-toc > a.myst-toc-item[title="Nanobeam Diffraction & 4D-STEM"] {
+  display: none;
+}
+/* book-theme replays a height:0 -> full expand animation on every
+   `data-state=open`; the sections start open, so kill the animation
+   and make any real toggle instant. */
+.myst-primary-sidebar-toc .collapsible-content {
+  animation: none !important;
+}
+
+/* ---------- Hide the article-style frontmatter strip ---------- */
+.myst-fm-block-header,
+.myst-fm-block-date-doi,
+header.myst-fm-authors-affiliations {
+  display: none !important;
+}
+
+/* ---------- Landing page ---------- */
+.nbc-hero {
+  margin: 1.5rem auto 0.5rem auto;
+}
+.nbc-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.nbc-tagline {
+  text-align: left;
+  font-size: 1.15rem;
+  opacity: 0.85;
+  max-width: 46rem;
+  margin: 1rem auto 1.5rem auto;
+}
+
+/* Organizer list */
+.nbc-organizers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem 0;
+}
+.nbc-organizers p {
+  margin: 0;
+}
+
+/* ---------- MSA logo card ----------
+   The logo has a white background, so keep it on a white card in
+   both themes. */
+.nbc-msa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 0.5rem;
+}
+html.dark .nbc-msa {
+  border-color: rgba(255, 255, 255, 0.18);
+}
+.nbc-msa p {
+  margin: 0;
+}
+.nbc-msa img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+/* ---------- Agenda table ---------- */
+article table td,
+article table th {
+  vertical-align: top;
+}

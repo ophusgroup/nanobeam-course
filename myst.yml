@@ -1,0 +1,51 @@
+# MyST configuration for the M&M 2026 X11 short-course companion site.
+# See: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: nanobeam-course
+  title: Nanobeam Diffraction & 4D-STEM
+  description: >
+    Companion site for the M&M 2026 Sunday short course X11 — Nanobeam
+    Diffraction and 4D-STEM Analysis of Crystalline and Disordered Materials.
+  keywords:
+    - electron microscopy
+    - STEM
+    - 4D-STEM
+    - nanobeam electron diffraction
+    - strain mapping
+    - orientation mapping
+  github: https://github.com/cophus/nanobeam-course
+  exclude:
+    - README.md
+  toc:
+    - file: index.md
+    - file: agenda.md
+    - title: Course Blocks
+      children:
+        - file: topics/acquisition.md
+        - file: topics/software.md
+        - file: topics/data-handling.md
+        - file: topics/strain.md
+        - file: topics/orientation.md
+        - file: topics/virtual-imaging.md
+        - file: topics/ml-clustering.md
+        - file: topics/polymers.md
+        - file: topics/amorphous-pdf.md
+    - file: resources.md
+site:
+  template: book-theme
+  title: Nanobeam Diffraction & 4D-STEM
+  options:
+    # Custom theming — see ./style.css
+    style: ./style.css
+    logo_text: Nanobeam & 4D-STEM
+    folders: true
+    outline_maxdepth: 2
+    hide_footer_links: true
+  nav:
+    - title: M&M 2026
+      url: https://mmconference.microscopy.org/
+    - title: py4DSTEM
+      url: https://github.com/py4dstem/py4DSTEM
+    - title: Tutorials
+      url: https://github.com/py4dstem/py4DSTEM_tutorials
