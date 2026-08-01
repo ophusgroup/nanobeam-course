@@ -6,9 +6,10 @@ title: Resources
 
 A collected reading list for the whole course. Each topic page also has its own focused reference list.
 
-## Review papers
+## Key papers & reviews
 
 - C. Ophus, "Four-Dimensional Scanning Transmission Electron Microscopy (4D-STEM): From Scanning Nanodiffraction to Ptychography and Beyond," *Microscopy and Microanalysis* **25**, 563–582 (2019). [doi:10.1017/S1431927619000497](https://doi.org/10.1017/S1431927619000497) — the standard overview of the 4D-STEM measurement family.
+- B. H. Savitzky et al., "py4DSTEM: A Software Package for Four-Dimensional Scanning Transmission Electron Microscopy Data Analysis," *Microscopy and Microanalysis* **27**, 712–743 (2021). [doi:10.1017/S1431927621000477](https://doi.org/10.1017/S1431927621000477) — the paper for the software used in most of the hands-on sessions.
 - P. A. Midgley and A. S. Eggeman, "Precession electron diffraction — a topical review," *IUCrJ* **2**, 126–136 (2015). [doi:10.1107/S2052252514022283](https://doi.org/10.1107/S2052252514022283)
 - K. C. Bustillo, S. E. Zeltmann et al., "4D-STEM of Beam-Sensitive Materials," *Accounts of Chemical Research* **54**, 2543–2551 (2021). [doi:10.1021/acs.accounts.1c00073](https://doi.org/10.1021/acs.accounts.1c00073)
 - S. V. Kalinin et al., "Machine learning in scanning transmission electron microscopy," *Nature Reviews Methods Primers* **2**, 11 (2022). [doi:10.1038/s43586-022-00095-w](https://doi.org/10.1038/s43586-022-00095-w)

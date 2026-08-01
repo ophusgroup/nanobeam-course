@@ -11,6 +11,11 @@ title: ML clustering
 - Recognize how preprocessing and scaling choices change what the algorithms find.
 :::
 
+:::{admonition} Hands-on tutorial
+:class: important
+- ▶️ [Clustering-based digital dark field imaging](https://colab.research.google.com/drive/1hKaw7YiaZiXWbvSQ1oKRuM_84tz7xUma?usp=sharing)
+:::
+
 A 4D-STEM dataset from a complex microstructure can contain thousands of distinct diffraction patterns — different phases, orientations, domains, and overlaps. Designing virtual detectors by hand (as in the [previous module](./virtual-imaging.md)) works when you know what you are looking for; unsupervised machine learning lets the data tell you *what distinct patterns exist* and *where they occur*, with no prior assumptions about the structures present [](doi:10.1186/s40679-019-0063-3).
 
 ## The idea

@@ -11,6 +11,11 @@ title: Virtual & digital dark field
 - Design virtual detector geometries deliberately rather than by habit.
 :::
 
+:::{admonition} Hands-on tutorial
+:class: important
+- ▶️ [Virtual dark field and digital dark field — BFBT ceramic](https://drive.google.com/file/d/1SwcFZd6bZJytR38UXeSiqpVuTk6yJnbX/view?usp=sharing)
+:::
+
 Because a 4D-STEM dataset contains the *entire* diffraction pattern at every probe position, any STEM detector geometry can be applied *after* the experiment [](doi:10.1016/j.ultramic.2015.03.015): integrate the intensity inside a chosen region of the diffraction pattern at each probe position, and the result is an image. This is **virtual imaging**, and it is usually the first — and often the most informative — analysis applied to any 4D-STEM dataset.
 
 ## Virtual bright field and dark field

@@ -11,6 +11,11 @@ title: Semicrystalline polymers
 - Render orientation fields as flowline maps and read connectivity, domains, and defects from them.
 :::
 
+:::{admonition} Hands-on tutorial
+:class: important
+- ▶️ [Flowline mapping of a semicrystalline polymer](https://drive.google.com/file/d/17G99GpRyoZBK7xFpPUVF-2AHsrq8nsnq/view?usp=drive_link) — from diffuse arcs to orientation histograms to flowline maps, working in polar coordinates (~45 min).
+:::
+
 Semicrystalline polymers and small-molecule organic films — conjugated polymers for organic electronics, polyolefins, peptide and protein assemblies — derive their properties from nanoscale crystalline domains embedded in an amorphous matrix. Charge transport in an organic semiconductor, for example, depends on how the π-stacking direction of crystallites connects across the film. These materials are essentially impossible to characterize by conventional high-resolution imaging: they are extremely beam sensitive, with critical fluences of order 1–100 e⁻/Å², destroyed long before an atomic-resolution image can be formed [](doi:10.1021/acs.accounts.1c00073).
 
 Nanobeam 4D-STEM sidesteps this. Diffraction concentrates the structural information from the whole illuminated volume into a few sharp features, so a useful diffraction pattern can be recorded with orders of magnitude fewer electrons than an image [](doi:10.1016/j.micron.2016.05.008) — and with a fast camera, the dose is spread over the full field of view in a single low-fluence pass.
@@ -27,7 +32,7 @@ A single nanobeam pattern from a semicrystalline polymer: the characteristic ref
 
 The workflow:
 
-1. **Detect the arcs.** At each probe position, locate the azimuthal position of the characteristic reflection. Polar transformation of each pattern makes the azimuthal intensity distribution easy to fit.
+1. **Detect the arcs.** At each probe position, locate the azimuthal position of the characteristic reflection. Polar transformation of each pattern makes the azimuthal intensity distribution easy to fit, and peak *prominence* (rather than absolute intensity) is the robust detection criterion for weak, diffuse signal.
 2. **Map orientation.** The azimuthal angle of the arc gives the local crystallite orientation (modulo the symmetry of the reflection); its intensity gives the degree of crystallinity/alignment. The result is an orientation field over the scanned area.
 3. **Draw flowlines.** Orientation fields are hard to read as color maps alone. **Flowline maps** [](doi:10.1038/s41563-019-0387-3) — streamlines integrated through the orientation vector field, drawn with density proportional to local alignment — render the connectivity of the crystalline regions directly, in images reminiscent of van Gogh's *Starry Night*:
 

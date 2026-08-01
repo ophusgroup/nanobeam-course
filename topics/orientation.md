@@ -11,6 +11,12 @@ title: Orientation mapping (ACOM)
 - Understand why precession improves pattern quality and matching reliability.
 :::
 
+:::{admonition} Hands-on tutorials
+:class: important
+- ▶️ [ACOM of AuAgPd nanowires](https://drive.google.com/file/d/1yAHg1Vwu_ZX8QOnPs01iww4mTST20h9c/view?usp=drive_link) — orientation mapping of experimental data recorded with a bullseye probe and a beamstop (~45 min).
+- ▶️ [Phase, orientation & strain of a two-phase Ti alloy](https://drive.google.com/file/d/1_DaUuEqq5vx_1ZM5R7zChEo7iA_ccprC/view?usp=drive_link) — the capstone: ACOM for the α and β phases, phase quantification, and strain extracted directly from the matched patterns (~45 min).
+:::
+
 ```{image} ../assets/cover-orientation.jpg
 :alt: Schematic of automated crystal orientation mapping — diffraction patterns from a polycrystalline film are matched against a library of simulated patterns over all orientations
 :width: 100%
@@ -59,3 +65,4 @@ Benchmarking phase mapping on simulated HZO data with known ground truth: recove
 - Pattern matching is only as good as the calibration: the reciprocal pixel size can be refined by fitting the measured Bragg peak radial distribution against the structure factors of a known phase in the sample.
 - Correlation score maps are worth inspecting on their own — low scores flag overlapping grains, unindexed phases, or regions where the library doesn't contain the right structure.
 - Template matching of the *full patterns* (as in pyxem [](doi:10.1016/j.ultramic.2022.113517)) and sparse peak matching (as in py4DSTEM's ACOM) are complementary approaches; both are open source, so you can try each on your data.
+- ACOM gives you strain for free: the distortion between each measured pattern and its best-matched simulation yields a per-phase strain map, with no manual choice of basis vectors.
