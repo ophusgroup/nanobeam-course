@@ -41,7 +41,15 @@ Classical dark field TEM tilts the beam (or shifts the objective aperture) so on
 Conventional dark field TEM: an objective aperture in the back focal plane selects a single diffracted beam to form the image: one reflection, one exposure, one tilt condition at a time.
 :::
 
-The 4D-STEM equivalent, **digital dark field (DDF)**, places a virtual aperture over one (or several) specific Bragg reflections and maps where in real space that reflection is excited. Every reflection in the dataset is available simultaneously, from a single scan. This is enormously powerful for microstructure:
+The 4D-STEM equivalent, **digital dark field (DDF)** [](doi:10.1093/mam/ozae104), places a virtual aperture over one (or several) specific Bragg reflections and maps where in real space that reflection is excited. Every reflection in the dataset is available simultaneously, from a single scan:
+
+:::{figure} ../assets/figures/ddf-workflow.jpg
+:alt: Flowchart of the digital dark field workflow, from probe template and peak finding through single apertures, aperture arrays, or points-list reduction to virtual dark field images
+:width: 75%
+The DDF workflow: after peak finding and g-vector identification, images can be formed from a single virtual aperture, from a mask built on a whole array of aperture positions, or by reducing the detected points list directly against the aperture array.
+:::
+
+This is enormously powerful for microstructure:
 
 - **Grain and domain mapping:** each grain lights up only in the reflections it produces, so DDF images segment grains, twins, and ferroelastic/ferroelectric domains, even when they are invisible in BF/ADF contrast [](doi:10.1017/S1431927620024411).
 - **Superlattice and ordered phases:** placing the aperture on superlattice reflections maps ordered regions and antiphase domains directly:

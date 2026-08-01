@@ -6,7 +6,7 @@ title: ML clustering
 
 :::{admonition} Learning goals
 :class: tip
-- Apply unsupervised decomposition (PCA/NMF) and clustering (k-means and friends) to 4D-STEM data.
+- Apply unsupervised decomposition (PCA/NMF) and clustering (from k-means to density-based methods like DBSCAN) to 4D-STEM data.
 - Interpret component patterns and cluster maps physically, and validate them against the raw data.
 - Recognize how preprocessing and scaling choices change what the algorithms find.
 :::
@@ -23,7 +23,7 @@ A 4D-STEM dataset from a complex microstructure can contain thousands of distinc
 Treat each probe position as one observation (a vector of detector-pixel intensities) and ask: what small set of characteristic patterns, mixed in varying proportions, explains the whole dataset? Two families of methods are widely used:
 
 - **Matrix decomposition** (PCA, non-negative matrix factorization): factorize the data into a set of component patterns and their real-space loading maps. NMF's non-negativity constraint suits diffraction data, since patterns and mixing weights are both inherently non-negative. PCA is often used first for denoising and to estimate how many components the data supports (scree plot).
-- **Clustering** (k-means, Gaussian mixtures, hierarchical, density-based): assign each probe position to one of *k* groups of similar patterns, giving a hard segmentation of the field of view into phases/domains, with each cluster's mean pattern available for crystallographic interpretation.
+- **Clustering**: group similar observations, giving a hard segmentation of the field of view into phases/domains, with each cluster's mean pattern available for crystallographic interpretation. Centroid methods (k-means, Gaussian mixtures) require choosing the number of clusters up front; **density-based methods** (DBSCAN and its relatives) instead take density threshold parameters and find as many clusters as the data supports [arXiv:2606.23201](https://arxiv.org/abs/2606.23201). The observations need not be whole patterns: clustering the detected Bragg peaks themselves in combined real and diffraction space is the basis of the clustering-based digital dark field workflow in this session's tutorial.
 
 :::{figure} ../assets/figures/clustering-methods.jpg
 :alt: Comparison of many clustering algorithms applied to toy 2D datasets, showing how each algorithm partitions differently shaped clusters
@@ -47,4 +47,4 @@ The payoff: each cluster's mean diffraction pattern, extracted automatically fro
 
 - Components are mathematical objects, not guaranteed physics: decomposition can mix or split physical phases (e.g., NMF components need not correspond one-to-one with real structures). Always validate components against the raw patterns and against crystallographic simulation.
 - Intensity scaling choices (log, power, masking the direct beam) strongly affect what the algorithms consider "similar"; dynamical intensity variations within one grain can otherwise dominate over phase differences.
-- Cluster count *k* is a modeling choice; scan it and watch how the segmentation evolves.
+- Density-based clustering does not assign every point, and that is fine. The unclustered leftovers include very small diffracting objects, false detections, and poor detections shifted well off the true disk centroid. The density parameters set the smallest object you wish to see (e.g. `min_samples = 20`), and even without analysing every disk you get far more clusters than you would ever analyse manually.
