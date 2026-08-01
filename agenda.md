@@ -25,4 +25,4 @@ title: 2026 Agenda
 
 - Box lunches are provided by the conference from 12:00–2:30.
 - Coffee breaks are provided from 10:00–10:30 AM and 2:00–2:30 PM.
-- The room has WiFi, but it may not support large file downloads — the Colab tutorials download their datasets on Google's side, so this mostly matters for opening the notebooks themselves.
+- The room has WiFi, but it may not support large file downloads. The Colab tutorials download their datasets on Google's side, so this mostly matters for opening the notebooks themselves.

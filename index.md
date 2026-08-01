@@ -26,23 +26,23 @@ University of Glasgow
 
 :::
 
-:::{admonition} Requirements — all participants
+:::{admonition} Requirements for all participants
 :class: warning
-- **Bring a laptop** (any operating system — tablets are not recommended for the hands-on sessions).
+- **Bring a laptop** (any operating system; tablets are not recommended for the hands-on sessions).
 - **Internet access** is required; the room has WiFi, but conference WiFi can be slow, so open the tutorial links before each session starts.
-- **A free Google account** is needed to run the tutorials in [Google Colab](https://colab.research.google.com/). No software installation is required — Colab runs entirely in the browser. Before the course, sign in at [colab.research.google.com](https://colab.research.google.com/) once to check that your account works.
+- **A free Google account** is needed to run the tutorials in [Google Colab](https://colab.research.google.com/). No software installation is required; Colab runs entirely in the browser. Before the course, sign in at [colab.research.google.com](https://colab.research.google.com/) once to check that your account works.
 :::
 
 :::{div}
 :class: nbc-tagline
-Companion site for **Short Course X11** at [Microscopy & Microanalysis 2026](https://mmconference.microscopy.org/) — Sunday, August 2, 2026, Room S202 B, Baird Center, Milwaukee, WI. This site collects the [2026 agenda](./agenda.md), teaching material for each module, hands-on Google Colab tutorials, and references for further reading.
+Companion site for **Short Course X11** at [Microscopy & Microanalysis 2026](https://mmconference.microscopy.org/), Sunday, August 2, 2026, Room S202 B, Baird Center, Milwaukee, WI. This site collects the [2026 agenda](./agenda.md), teaching material for each module, hands-on Google Colab tutorials, and references for further reading.
 :::
 
 :::{div}
 :class: nbc-hero
 
 ```{image} assets/cover-full.jpg
-:alt: Nanobeam diffraction schematics — strain mapping of a crystalline nanostructure (top) and orientation mapping of a polycrystalline film (bottom)
+:alt: Nanobeam diffraction schematics: strain mapping of a crystalline nanostructure (top) and orientation mapping of a polycrystalline film (bottom)
 ```
 
 :::
@@ -55,4 +55,4 @@ Companion site for **Short Course X11** at [Microscopy & Microanalysis 2026](htt
 - Diffraction analysis of crystalline samples: strain mapping, orientation mapping, and phase identification
 - Diffraction analysis of disordered or semicrystalline materials: polymer orientation, phase mapping, and pair distribution functions
 
-Use the sidebar (or the [agenda](./agenda.md)) to jump to the module pages — each has teaching notes, the hands-on Colab tutorial, and references for further reading.
+Use the sidebar (or the [agenda](./agenda.md)) to jump to the module pages. Each has teaching notes, the hands-on Colab tutorial, and references for further reading.

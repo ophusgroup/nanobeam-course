@@ -30,7 +30,7 @@ A healthy ecosystem of open-source Python packages has grown up around 4D-STEM a
 
 ## abTEM
 
-[abTEM](https://abtem.readthedocs.io/) [](doi:10.12688/openreseurope.13015.1) simulates TEM and STEM experiments from first principles — multislice and PRISM image simulation directly from atomic models, entirely in Python. Simulation matters for 4D-STEM analysis: it lets you generate test data with known ground truth, design experiments (convergence angle, thickness, tilt sensitivity), and build the diffraction template libraries used in orientation mapping.
+[abTEM](https://abtem.readthedocs.io/) [](doi:10.12688/openreseurope.13015.1) simulates TEM and STEM experiments from first principles: multislice and PRISM image simulation directly from atomic models, entirely in Python. Simulation matters for 4D-STEM analysis: it lets you generate test data with known ground truth, design experiments (convergence angle, thickness, tilt sensitivity), and build the diffraction template libraries used in orientation mapping.
 
 ## Which tool should I use?
 
