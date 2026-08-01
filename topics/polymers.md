@@ -1,8 +1,7 @@
 ---
-title: Semicrystalline polymers
+title: Orientation and flowline mapping of semicrystalline polymers
+short_title: Semicrystalline polymers
 ---
-
-# Orientation and flowline mapping of semicrystalline polymers
 
 :::{admonition} Hands-on tutorial
 :class: important

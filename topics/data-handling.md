@@ -1,8 +1,7 @@
 ---
-title: Data handling & calibration
+title: Loading, organizing, and calibrating 4D-STEM data
+short_title: Data handling & calibration
 ---
-
-# Loading, organizing, and calibrating 4D-STEM data
 
 :::{admonition} Hands-on tutorial
 :class: important

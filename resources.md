@@ -1,8 +1,7 @@
 ---
-title: Resources
+title: Resources & further reading
+short_title: Resources
 ---
-
-# Resources & further reading
 
 A collected reading list for the whole course. Each topic page also has its own focused reference list.
 

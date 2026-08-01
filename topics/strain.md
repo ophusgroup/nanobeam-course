@@ -1,8 +1,7 @@
 ---
-title: Strain mapping
+title: Strain mapping with nanobeam electron diffraction
+short_title: Strain mapping
 ---
-
-# Strain mapping with nanobeam electron diffraction
 
 :::{admonition} Hands-on tutorial
 :class: important

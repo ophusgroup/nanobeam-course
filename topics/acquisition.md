@@ -1,8 +1,7 @@
 ---
-title: Acquiring nanobeam data
+title: Practical guidance for nanobeam 4D-STEM acquisition
+short_title: Acquiring nanobeam data
 ---
-
-# Practical guidance for nanobeam 4D-STEM acquisition
 
 :::{admonition} Learning goals
 :class: tip

@@ -1,8 +1,7 @@
 ---
-title: Software ecosystem
+title: The open-source 4D-STEM software ecosystem
+short_title: Software ecosystem
 ---
-
-# The open-source 4D-STEM software ecosystem
 
 :::{admonition} Learning goals
 :class: tip

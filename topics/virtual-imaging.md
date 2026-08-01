@@ -1,8 +1,7 @@
 ---
-title: Virtual & digital dark field
+title: Virtual dark field and digital dark field imaging
+short_title: Virtual & digital dark field
 ---
-
-# Virtual dark field and digital dark field imaging
 
 :::{admonition} Hands-on tutorial
 :class: important

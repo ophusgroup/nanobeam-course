@@ -1,8 +1,7 @@
 ---
-title: ML clustering
+title: Machine-learning clustering for phase and domain mapping
+short_title: ML clustering
 ---
-
-# Machine-learning clustering for phase and domain mapping
 
 :::{admonition} Hands-on tutorial
 :class: important

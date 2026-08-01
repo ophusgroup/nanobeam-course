@@ -1,8 +1,7 @@
 ---
-title: Amorphous materials & PDF
+title: Amorphous materials and pair distribution functions
+short_title: Amorphous materials & PDF
 ---
-
-# Amorphous materials and pair distribution functions
 
 :::{admonition} Hands-on tutorial
 :class: important

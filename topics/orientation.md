@@ -1,8 +1,7 @@
 ---
-title: Orientation & phase mapping
+title: Automated crystal orientation and phase mapping
+short_title: Orientation & phase mapping
 ---
-
-# Automated crystal orientation and phase mapping
 
 :::{admonition} Hands-on tutorial
 :class: important
