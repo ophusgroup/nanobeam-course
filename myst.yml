@@ -14,7 +14,7 @@ project:
     - nanobeam electron diffraction
     - strain mapping
     - orientation mapping
-  github: https://github.com/cophus/nanobeam-course
+  github: https://github.com/ophusgroup/nanobeam-course
   exclude:
     - README.md
   toc:
