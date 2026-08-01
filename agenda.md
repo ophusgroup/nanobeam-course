@@ -1,12 +1,15 @@
 ---
-title: Agenda
+title: 2026 Agenda
 ---
 
-# Agenda
+# 2026 Agenda
 
-**Sunday, August 2, 2026 · 8:30 AM – 5:00 PM · Baird Center, Milwaukee, WI**
+**Sunday, August 2, 2026 · 8:30 AM – 5:30 PM CST**
+**Room S202 B · Baird Center, Milwaukee, WI**
 
-Each hands-on block below links to its topic page, which contains the teaching material, the Google Colab tutorial, and references for further reading.
+Session chair: Colin Ophus (Stanford University). Presenters: Stephanie Ribet (Lawrence Berkeley National Laboratory) and Ian MacLaren (University of Glasgow).
+
+Each module below links to its topic page, which contains the teaching material, the Google Colab tutorial, and references for further reading.
 
 | Time | Topic | Lead | Format |
 | --- | --- | --- | --- |

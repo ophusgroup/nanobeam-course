@@ -4,9 +4,8 @@ title: ML clustering
 
 # Machine-learning clustering for phase and domain mapping
 
-**13:45 – 14:30 · Ian MacLaren · Colab demo**
 
-A 4D-STEM dataset from a complex microstructure can contain thousands of distinct diffraction patterns — different phases, orientations, domains, and overlaps. Designing virtual detectors by hand (as in the [previous block](./virtual-imaging.md)) works when you know what you are looking for; unsupervised machine learning lets the data tell you *what distinct patterns exist* and *where they occur*, with no prior assumptions about the structures present.
+A 4D-STEM dataset from a complex microstructure can contain thousands of distinct diffraction patterns — different phases, orientations, domains, and overlaps. Designing virtual detectors by hand (as in the [previous module](./virtual-imaging.md)) works when you know what you are looking for; unsupervised machine learning lets the data tell you *what distinct patterns exist* and *where they occur*, with no prior assumptions about the structures present.
 
 ## The idea
 

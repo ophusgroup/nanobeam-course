@@ -4,7 +4,6 @@ title: Semicrystalline polymers
 
 # Orientation and flowline mapping of semicrystalline polymers
 
-**15:00 – 16:00 · Stephanie Ribet · Colab demo**
 
 Semicrystalline polymers and small-molecule organic films — conjugated polymers for organic electronics, polyolefins, peptide and protein assemblies — derive their properties from nanoscale crystalline domains embedded in an amorphous matrix. Charge transport in an organic semiconductor, for example, depends on how the π-stacking direction of crystallites connects across the film. These materials are essentially impossible to characterize by conventional high-resolution imaging: they are extremely beam sensitive, with critical fluences of order 1–100 e⁻/Å², destroyed long before an atomic-resolution image can be formed.
 

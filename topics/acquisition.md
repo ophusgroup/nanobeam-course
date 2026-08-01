@@ -4,11 +4,10 @@ title: Acquiring nanobeam diffraction data
 
 # Practical guidance for nanobeam 4D-STEM acquisition
 
-**8:30 – 9:15 · All instructors · Slides**
 
 In four-dimensional scanning transmission electron microscopy (4D-STEM), we scan a focused or nearly-parallel electron probe over a two-dimensional grid of positions on the sample, and record a full two-dimensional diffraction pattern at every position. The result is a four-dimensional dataset: two real-space scan dimensions and two reciprocal-space detector dimensions. Almost every analysis in this course — strain mapping, orientation mapping, virtual imaging, polymer orientation, pair distribution functions — starts from the same kind of measurement, and the quality of every one of them is set at the microscope, before any software is involved.
 
-This opening block covers the practical decisions that determine whether a nanobeam experiment succeeds.
+This opening module covers the practical decisions that determine whether a nanobeam experiment succeeds.
 
 ## The fundamental trade-off: probe size vs. angular resolution
 
@@ -17,7 +16,7 @@ The convergence semi-angle α of the probe controls both the real-space probe si
 Things to consider when choosing probe conditions:
 
 - **Convergence angle:** small enough that disks of interest do not overlap, large enough that the probe stays small compared to the microstructural features you want to resolve. Disk-edge sharpness also sets how precisely disk positions can be measured.
-- **Probe current and dose:** diffraction disk registration works well even at low dose, but weak reflections (superlattice peaks, high-order Laue zones, amorphous halos) need adequate counts. For beam-sensitive materials (see the [polymer block](./polymers.md)), total fluence budgets of 1–100 e⁻/Å² may apply, which dictates probe current, dwell time, and step size.
+- **Probe current and dose:** diffraction disk registration works well even at low dose, but weak reflections (superlattice peaks, high-order Laue zones, amorphous halos) need adequate counts. For beam-sensitive materials (see the [polymer module](./polymers.md)), total fluence budgets of 1–100 e⁻/Å² may apply, which dictates probe current, dwell time, and step size.
 - **Scan step size:** for mapping, the step is usually chosen comparable to or larger than the probe size. Oversampling wastes dose; undersampling misses microstructure.
 - **Camera length:** sets which scattering angles land on the detector. Strain and orientation mapping want the first few orders of Bragg reflections; PDF measurements want to reach high scattering vectors (k of several Å⁻¹).
 - **Energy filtering:** zero-loss filtering of diffraction patterns substantially improves the background for PDF and fluctuation microscopy measurements on thicker samples.

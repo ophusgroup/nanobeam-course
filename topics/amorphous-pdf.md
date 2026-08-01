@@ -4,9 +4,8 @@ title: Amorphous materials & PDF
 
 # Amorphous materials and pair distribution functions
 
-**16:00 – 17:00 · Colin Ophus · Colab demo**
 
-Glasses, amorphous thin films, liquids, and highly disordered solids have no unit cell — so the crystallographic toolkit of the morning sessions (Bragg disks, lattice vectors, orientation libraries) does not apply. But these materials are far from structureless: they have well-defined bond lengths, coordination shells, and often *medium-range order* (MRO) extending over 1–3 nm. This block covers how to quantify that structure from nanobeam diffraction.
+Glasses, amorphous thin films, liquids, and highly disordered solids have no unit cell — so the crystallographic toolkit of the morning sessions (Bragg disks, lattice vectors, orientation libraries) does not apply. But these materials are far from structureless: they have well-defined bond lengths, coordination shells, and often *medium-range order* (MRO) extending over 1–3 nm. This module covers how to quantify that structure from nanobeam diffraction.
 
 ## Describing disorder: n-body distribution functions
 

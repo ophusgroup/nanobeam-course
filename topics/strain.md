@@ -4,7 +4,6 @@ title: Strain mapping
 
 # Strain mapping with nanobeam electron diffraction
 
-**10:30 – 11:15 · Stephanie Ribet · Colab demo**
 
 ```{image} ../assets/cover-strain.jpg
 :alt: Schematic of nanobeam strain mapping — a converged probe scanned over a strained crystal produces diffraction patterns whose Bragg disk positions encode the local lattice vectors
@@ -17,7 +16,7 @@ Strain — the local deviation of the lattice from its relaxed spacing — contr
 
 1. **Probe template.** Record a vacuum probe image (or extract a template from a thin region of the dataset). Its cross-correlation kernel — typically shaped with a sigmoid edge — is what makes disk detection precise.
 2. **Bragg disk detection.** Cross-correlate the template with every diffraction pattern and locate the correlation maxima with subpixel precision. In py4DSTEM this is `find_Bragg_disks`; the key hyperparameters are the correlation power, minimum peak intensity/spacing, and the subpixel mode (`'poly'` is fast for tutorials; **`'multicorr'` is recommended for high-precision strain mapping**).
-3. **Calibration.** Correct the origin (descan), elliptical distortion, and the real-space/reciprocal-space rotation — see the [data handling block](./data-handling.md). Calibration errors map directly into artificial strain.
+3. **Calibration.** Correct the origin (descan), elliptical distortion, and the real-space/reciprocal-space rotation — see the [data handling module](./data-handling.md). Calibration errors map directly into artificial strain.
 4. **Lattice fitting.** Choose basis vectors *g*₁ and *g*₂ from the Bragg vector map (ideally perpendicular, well-separated reflections), and fit the full lattice at every probe position.
 5. **Strain from a reference.** Strain is always measured *relative to a reference lattice* — either the median lattice over a region of interest known to be unstrained, or manually specified reference vectors (e.g., from theory). The transformation between the local and reference lattice vectors, rotated into your chosen coordinate system, gives ε<sub>xx</sub>, ε<sub>yy</sub>, ε<sub>xy</sub>, and θ.
 

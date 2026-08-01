@@ -4,7 +4,6 @@ title: Orientation mapping (ACOM)
 
 # Automated crystal orientation and phase mapping
 
-**11:15 – 12:00 · Colin Ophus · Colab demo**
 
 ```{image} ../assets/cover-orientation.jpg
 :alt: Schematic of automated crystal orientation mapping — diffraction patterns from a polycrystalline film are matched against a library of simulated patterns over all orientations
@@ -23,7 +22,7 @@ Most functional and structural materials are polycrystalline, and their properti
 
 ## Precession and pattern quality
 
-Zone-axis nanobeam patterns are strongly dynamical: intensities oscillate with thickness and small mistilts, which degrades matching against kinematical templates. **Precession electron diffraction (PED)** — rocking the beam on a cone (typically ~0.3–1°) while descanning below the sample — integrates through the rocking curve and produces more kinematical-like, more complete patterns. Precession substantially improves both orientation reliability and phase discrimination, and the tutorial dataset for this block is a precession 4D-STEM measurement of a two-phase (α + β) titanium alloy.
+Zone-axis nanobeam patterns are strongly dynamical: intensities oscillate with thickness and small mistilts, which degrades matching against kinematical templates. **Precession electron diffraction (PED)** — rocking the beam on a cone (typically ~0.3–1°) while descanning below the sample — integrates through the rocking curve and produces more kinematical-like, more complete patterns. Precession substantially improves both orientation reliability and phase discrimination, and the tutorial dataset for this module is a precession 4D-STEM measurement of a two-phase (α + β) titanium alloy.
 
 ## Practical notes
 

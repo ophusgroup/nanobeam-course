@@ -4,9 +4,8 @@ title: Software ecosystem
 
 # The open-source 4D-STEM software ecosystem
 
-**9:15 – 9:45 · All instructors · Slides + short demos**
 
-A healthy ecosystem of open-source Python packages has grown up around 4D-STEM analysis. They overlap in places, and that is a feature: you can move data between them, cross-check results, and pick the tool whose workflow fits your problem. This block gives a whirlwind tour of the packages used in this course.
+A healthy ecosystem of open-source Python packages has grown up around 4D-STEM analysis. They overlap in places, and that is a feature: you can move data between them, cross-check results, and pick the tool whose workflow fits your problem. This module gives a whirlwind tour of the packages used in this course.
 
 ## py4DSTEM
 

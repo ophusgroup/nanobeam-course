@@ -135,7 +135,7 @@ html.dark .myst-primary-sidebar-toc .dark\:text-blue-200 {
 }
 /* The site title is already in the top bar; drop the duplicate
    root entry at the top of the sidebar. */
-.myst-toc > a.myst-toc-item[title="Nanobeam Diffraction & 4D-STEM"] {
+.myst-toc > a.myst-toc-item[title="Nanobeam 4DSTEM"] {
   display: none;
 }
 /* book-theme replays a height:0 -> full expand animation on every
@@ -154,6 +154,7 @@ header.myst-fm-authors-affiliations {
 
 /* ---------- Landing page ---------- */
 .nbc-hero {
+  max-width: 34rem;
   margin: 1.5rem auto 0.5rem auto;
 }
 .nbc-hero img {
@@ -170,15 +171,95 @@ header.myst-fm-authors-affiliations {
   margin: 1rem auto 1.5rem auto;
 }
 
-/* Organizer list */
+/* Organizer list — compact row under the title */
 .nbc-organizers {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
-  gap: 0.75rem;
-  margin: 1rem 0 1.5rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+  gap: 0.5rem 0.75rem;
+  margin: 0.75rem 0 1.25rem 0;
+  font-size: 0.95rem;
 }
 .nbc-organizers p {
   margin: 0;
+}
+
+/* ---------- Search ----------
+   The theme's dialog-based search is replaced at runtime (see
+   scripts/patch_theme.py) with a flat input in the top bar. No overlay,
+   no scroll lock, so opening it never shifts the page. */
+.nbc-search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-width: 0;          /* allow the input to shrink inside the flex nav */
+}
+.nbc-search input {
+  height: 2.5rem;
+  width: 100%;
+  max-width: 12rem;
+  padding: 0 0.75rem;
+  font-size: 0.875rem;
+  color: inherit;
+  background: rgb(249, 250, 251);
+  border: 1px solid rgb(209, 213, 219);
+  border-radius: 0.5rem;
+  outline: none;
+  appearance: none;
+}
+html.dark .nbc-search input {
+  background: rgb(55, 65, 81);
+  border-color: rgb(75, 85, 99);
+}
+.nbc-search input::-webkit-search-cancel-button {
+  appearance: none;
+}
+.nbc-search input:focus {
+  border-color: var(--nbc-accent);
+  box-shadow: 0 0 0 1px var(--nbc-accent);
+}
+@media (min-width: 640px) {
+  .nbc-search input { max-width: 20rem; }
+}
+.nbc-search-results {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 1000;
+  width: min(26rem, 90vw);
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 0.25rem;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
+}
+html.dark .nbc-search-results {
+  background: rgb(28, 25, 23);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+a.nbc-search-hit {
+  display: block;
+  padding: 0.4rem 0.55rem;
+  border-radius: 0.35rem;
+  color: inherit !important;
+  text-decoration: none;
+}
+a.nbc-search-hit:hover,
+a.nbc-search-hit.active {
+  background: var(--nbc-accent);
+  color: #fff !important;
+}
+.nbc-search-hit-title {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+.nbc-search-hit-text {
+  font-size: 0.78rem;
+  opacity: 0.75;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* ---------- MSA logo card ----------

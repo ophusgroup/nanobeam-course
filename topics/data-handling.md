@@ -4,9 +4,8 @@ title: Data handling & calibration
 
 # Loading, organizing, and calibrating 4D-STEM data
 
-**9:45 – 10:00 · Stephanie Ribet · Colab demo**
 
-Before any physics can come out of a 4D-STEM dataset, the data has to be loaded, organized, and — critically — calibrated. This short demo walks through the py4DSTEM data pipeline: reading files, browsing the 4D datacube interactively, and applying the chain of calibrations that turn detector pixels into physical units.
+Before any physics can come out of a 4D-STEM dataset, the data has to be loaded, organized, and — critically — calibrated. This module walks through the py4DSTEM data pipeline: reading files, browsing the 4D datacube interactively, and applying the chain of calibrations that turn detector pixels into physical units.
 
 ## Loading data across formats
 

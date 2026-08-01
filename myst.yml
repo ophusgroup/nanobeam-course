@@ -3,7 +3,7 @@
 version: 1
 project:
   id: nanobeam-course
-  title: Nanobeam Diffraction & 4D-STEM
+  title: Nanobeam 4DSTEM
   description: >
     Companion site for the M&M 2026 Sunday short course X11 — Nanobeam
     Diffraction and 4D-STEM Analysis of Crystalline and Disordered Materials.
@@ -20,7 +20,7 @@ project:
   toc:
     - file: index.md
     - file: agenda.md
-    - title: Course Blocks
+    - title: Modules
       children:
         - file: topics/acquisition.md
         - file: topics/software.md
@@ -34,11 +34,11 @@ project:
     - file: resources.md
 site:
   template: book-theme
-  title: Nanobeam Diffraction & 4D-STEM
+  title: Nanobeam 4DSTEM
   options:
     # Custom theming — see ./style.css
     style: ./style.css
-    logo_text: Nanobeam & 4D-STEM
+    logo_text: Nanobeam 4DSTEM
     folders: true
     outline_maxdepth: 2
     hide_footer_links: true

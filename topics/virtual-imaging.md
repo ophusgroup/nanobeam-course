@@ -4,7 +4,6 @@ title: Virtual & digital dark field
 
 # Virtual dark field and digital dark field imaging
 
-**13:00 – 13:45 · Ian MacLaren · Colab demo**
 
 Because a 4D-STEM dataset contains the *entire* diffraction pattern at every probe position, any STEM detector geometry can be applied *after* the experiment: integrate the intensity inside a chosen region of the diffraction pattern at each probe position, and the result is an image. This is **virtual imaging**, and it is usually the first — and often the most informative — analysis applied to any 4D-STEM dataset.
 
@@ -22,7 +21,7 @@ Classical dark field TEM tilts the beam so one chosen Bragg reflection passes th
 - **Grain and domain mapping:** each grain lights up only in the reflections it produces, so DDF images segment grains, twins, and ferroelastic/ferroelectric domains — even when they are invisible in BF/ADF contrast.
 - **Superlattice and ordered phases:** placing the aperture on superlattice reflections maps ordered regions and antiphase domains directly.
 - **Tracking spots, not just masking them:** in real datasets the reflections move (strain, rotation, descan), so robust DDF implementations follow the peak within a window rather than using a fixed mask — this is where the Bragg-vector-based approaches and fast implementations (e.g., Kelvin_STEM, py4DSTEM, pyxem) come in.
-- From the ensemble of DDF images, phase and domain maps of the whole field of view can be assembled — the manual counterpart of the [ML clustering approaches](./ml-clustering.md) in the next block.
+- From the ensemble of DDF images, phase and domain maps of the whole field of view can be assembled — the manual counterpart of the [ML clustering approaches](./ml-clustering.md) in the next module.
 
 ## Tutorial
 
