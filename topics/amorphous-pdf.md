@@ -4,16 +4,16 @@ title: Amorphous materials & PDF
 
 # Amorphous materials and pair distribution functions
 
+:::{admonition} Hands-on tutorial
+:class: important
+- ▶️ [Pair distribution function of amorphous Ta](https://drive.google.com/file/d/1-fHnUWhyzVWk207TTyJSy-cSfJaQIXL8/view?usp=drive_link): compute I(k), S(k), and G(r), and validate them against the ground-truth atomic coordinates of the simulated sample.
+:::
+
 :::{admonition} Learning goals
 :class: tip
 - Describe disordered structure with pair distribution functions, and read the signatures of nanocrystalline, medium-range-ordered, and liquid-like structure in g(r).
 - Compute an electron PDF from 4D-STEM data: polar transform, background fit, structure factor, sine transform.
 - Know the main failure modes (origin errors, k-range truncation, density normalization) and how to validate results.
-:::
-
-:::{admonition} Hands-on tutorial
-:class: important
-- ▶️ [Pair distribution function of amorphous Ta](https://drive.google.com/file/d/1-fHnUWhyzVWk207TTyJSy-cSfJaQIXL8/view?usp=drive_link): compute I(k), S(k), and G(r), and validate them against the ground-truth atomic coordinates of the simulated sample.
 :::
 
 Glasses, amorphous thin films, liquids, and highly disordered solids have no unit cell, so the crystallographic toolkit of the morning sessions (Bragg disks, lattice vectors, orientation libraries) does not apply. But these materials are far from structureless: they have well-defined bond lengths, coordination shells, and often *medium-range order* (MRO) extending over 1–3 nm. This module covers how to quantify that structure from nanobeam diffraction [](doi:10.1146/annurev.matsci.35.082803.103337).

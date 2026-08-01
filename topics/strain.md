@@ -4,16 +4,16 @@ title: Strain mapping
 
 # Strain mapping with nanobeam electron diffraction
 
+:::{admonition} Hands-on tutorial
+:class: important
+- ▶️ [Strain mapping of a partially cycled LiFePO₄ battery cathode](https://drive.google.com/file/d/1aQaRR-XZzCZayfYsSDVuz7prLeolsVKI/view?usp=drive_link): the full workflow from vacuum probe to strain maps, including the descan, ellipticity, and rotation calibrations.
+:::
+
 :::{admonition} Learning goals
 :class: tip
 - Run the full strain-mapping workflow: probe template → Bragg disk detection → calibration → lattice fitting → strain maps.
 - Choose detection hyperparameters and a reference lattice, and understand how each choice shapes the result.
 - Know the main precision limits (disk edge sharpness, thickness effects, calibration errors) and how to mitigate them.
-:::
-
-:::{admonition} Hands-on tutorial
-:class: important
-- ▶️ [Strain mapping of a partially cycled LiFePO₄ battery cathode](https://drive.google.com/file/d/1aQaRR-XZzCZayfYsSDVuz7prLeolsVKI/view?usp=drive_link): the full workflow from vacuum probe to strain maps, including the descan, ellipticity, and rotation calibrations.
 :::
 
 ```{image} ../assets/cover-strain.jpg

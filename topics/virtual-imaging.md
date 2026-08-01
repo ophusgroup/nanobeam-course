@@ -4,6 +4,11 @@ title: Virtual & digital dark field
 
 # Virtual dark field and digital dark field imaging
 
+:::{admonition} Hands-on tutorial
+:class: important
+- ▶️ [Virtual dark field and digital dark field (BFBT ceramic)](https://drive.google.com/file/d/1SwcFZd6bZJytR38UXeSiqpVuTk6yJnbX/view?usp=sharing)
+:::
+
 :::{admonition} Learning goals
 :class: tip
 - Form virtual bright field, dark field, and custom-mask images from a 4D dataset.
@@ -11,12 +16,7 @@ title: Virtual & digital dark field
 - Design virtual detector geometries deliberately rather than by habit.
 :::
 
-:::{admonition} Hands-on tutorial
-:class: important
-- ▶️ [Virtual dark field and digital dark field (BFBT ceramic)](https://drive.google.com/file/d/1SwcFZd6bZJytR38UXeSiqpVuTk6yJnbX/view?usp=sharing)
-:::
-
-Because a 4D-STEM dataset contains the *entire* diffraction pattern at every probe position, any STEM detector geometry can be applied *after* the experiment [](doi:10.1016/j.ultramic.2015.03.015): integrate the intensity inside a chosen region of the diffraction pattern at each probe position, and the result is an image. This is **virtual imaging**, and it is usually the first, and often the most informative, analysis applied to any 4D-STEM dataset.
+Because a 4D-STEM dataset contains the *entire* diffraction pattern at every probe position, any STEM detector geometry can be applied *after* the experiment: integrate the intensity inside a chosen region of the diffraction pattern at each probe position, and the result is an image. This is **virtual imaging**, and it is usually the first, and often the most informative, analysis applied to any 4D-STEM dataset. Virtual bright field and dark field reconstruction in this sense was popularized by Rauch and co-workers alongside scanning precession diffraction and ACOM [](doi:10.1111/jmi.12065), [](doi:10.1016/j.matchar.2014.08.010), and generalized to arbitrarily shaped virtual apertures by Gammer et al. [](doi:10.1016/j.ultramic.2015.03.015).
 
 ## Virtual bright field and dark field
 

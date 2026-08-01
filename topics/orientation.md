@@ -4,16 +4,16 @@ title: Orientation & phase mapping
 
 # Automated crystal orientation and phase mapping
 
+:::{admonition} Hands-on tutorial
+:class: important
+- ▶️ [Phase, orientation & strain of a two-phase Ti alloy](https://drive.google.com/file/d/1_DaUuEqq5vx_1ZM5R7zChEo7iA_ccprC/view?usp=drive_link): ACOM for the α and β phases, phase quantification, and strain extracted directly from the matched patterns.
+:::
+
 :::{admonition} Learning goals
 :class: tip
 - Build an orientation plan from a reference crystal structure and match it to experimental Bragg peaks.
 - Generate and interpret orientation maps, correlation-score maps, and phase maps.
 - Understand why precession improves pattern quality and matching reliability.
-:::
-
-:::{admonition} Hands-on tutorial
-:class: important
-- ▶️ [Phase, orientation & strain of a two-phase Ti alloy](https://drive.google.com/file/d/1_DaUuEqq5vx_1ZM5R7zChEo7iA_ccprC/view?usp=drive_link): ACOM for the α and β phases, phase quantification, and strain extracted directly from the matched patterns.
 :::
 
 ```{image} ../assets/cover-orientation.jpg
