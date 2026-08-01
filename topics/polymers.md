@@ -11,11 +11,6 @@ title: Semicrystalline polymers
 - Render orientation fields as flowline maps and read connectivity, domains, and defects from them.
 :::
 
-:::{admonition} Hands-on tutorial
-:class: important
-🚧 The Google Colab notebook for this module will be linked here soon. In the meantime, see the [py4DSTEM tutorials repository](https://github.com/py4dstem/py4DSTEM_tutorials).
-:::
-
 Semicrystalline polymers and small-molecule organic films — conjugated polymers for organic electronics, polyolefins, peptide and protein assemblies — derive their properties from nanoscale crystalline domains embedded in an amorphous matrix. Charge transport in an organic semiconductor, for example, depends on how the π-stacking direction of crystallites connects across the film. These materials are essentially impossible to characterize by conventional high-resolution imaging: they are extremely beam sensitive, with critical fluences of order 1–100 e⁻/Å², destroyed long before an atomic-resolution image can be formed [](doi:10.1021/acs.accounts.1c00073).
 
 Nanobeam 4D-STEM sidesteps this. Diffraction concentrates the structural information from the whole illuminated volume into a few sharp features, so a useful diffraction pattern can be recorded with orders of magnitude fewer electrons than an image [](doi:10.1016/j.micron.2016.05.008) — and with a fast camera, the dose is spread over the full field of view in a single low-fluence pass.

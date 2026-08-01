@@ -11,11 +11,6 @@ title: Acquiring nanobeam data
 - Leave the microscope with the calibration data your analysis will need.
 :::
 
-:::{admonition} Hands-on material
-:class: important
-🚧 The slides for this session will be posted here after the course.
-:::
-
 In four-dimensional scanning transmission electron microscopy (4D-STEM), we scan a focused or nearly-parallel electron probe over a two-dimensional grid of positions on the sample, and record a full two-dimensional diffraction pattern at every position [](doi:10.1017/S1431927619000497). The result is a four-dimensional dataset: two real-space scan dimensions and two reciprocal-space detector dimensions.
 
 :::{figure} ../assets/figures/4dstem-concept.jpg

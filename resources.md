@@ -32,12 +32,6 @@ A collected reading list for the whole course. Each topic page also has its own 
 | Kelvin_STEM | [GitHub](https://github.com/maclariz/Kelvin_STEM) |
 | abTEM | [docs](https://abtem.readthedocs.io/) · [GitHub](https://github.com/abTEM/abTEM) · [paper](https://doi.org/10.12688/openreseurope.13015.1) |
 
-## Tutorials and slides
-
-:::{note}
-🚧 The Google Colab notebooks and the slide decks for each session will be linked from the topic pages (and collected here) once finalized — check back shortly before the course.
-:::
-
 ## Open datasets
 
 Several of the tutorial datasets are drawn from published, openly archived measurements — for example the precession 4D-STEM titanium dataset ([paper](https://doi.org/10.1111/jmi.13275) · [data](https://doi.org/10.5525/gla.researchdata.1514)). Links to each tutorial's dataset are given inside the Colab notebooks.

@@ -10,11 +10,6 @@ title: Software ecosystem
 - Pick a sensible starting tool for a given analysis task.
 :::
 
-:::{admonition} Hands-on material
-:class: important
-🚧 The slides and short demo notebooks for this session will be posted here after the course.
-:::
-
 A healthy ecosystem of open-source Python packages has grown up around 4D-STEM analysis. They overlap in places, and that is a feature: you can move data between them, cross-check results, and pick the tool whose workflow fits your problem. This module gives a whirlwind tour of the packages used in this course.
 
 ## py4DSTEM

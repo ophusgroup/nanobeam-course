@@ -11,11 +11,6 @@ title: Amorphous materials & PDF
 - Know the main failure modes (origin errors, k-range truncation, density normalization) and how to validate results.
 :::
 
-:::{admonition} Hands-on tutorial
-:class: important
-🚧 The Google Colab notebook for this module will be linked here soon. In the meantime, see the [py4DSTEM tutorials repository](https://github.com/py4dstem/py4DSTEM_tutorials).
-:::
-
 Glasses, amorphous thin films, liquids, and highly disordered solids have no unit cell — so the crystallographic toolkit of the morning sessions (Bragg disks, lattice vectors, orientation libraries) does not apply. But these materials are far from structureless: they have well-defined bond lengths, coordination shells, and often *medium-range order* (MRO) extending over 1–3 nm. This module covers how to quantify that structure from nanobeam diffraction [](doi:10.1146/annurev.matsci.35.082803.103337).
 
 :::{figure} ../assets/figures/crystal-amorphous.png

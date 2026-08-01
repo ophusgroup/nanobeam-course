@@ -11,11 +11,6 @@ title: Orientation mapping (ACOM)
 - Understand why precession improves pattern quality and matching reliability.
 :::
 
-:::{admonition} Hands-on tutorial
-:class: important
-🚧 The Google Colab notebook for this module will be linked here soon. In the meantime, see the [py4DSTEM tutorials repository](https://github.com/py4dstem/py4DSTEM_tutorials).
-:::
-
 ```{image} ../assets/cover-orientation.jpg
 :alt: Schematic of automated crystal orientation mapping — diffraction patterns from a polycrystalline film are matched against a library of simulated patterns over all orientations
 :width: 100%

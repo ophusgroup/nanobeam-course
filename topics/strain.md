@@ -11,11 +11,6 @@ title: Strain mapping
 - Know the main precision limits — disk edge sharpness, thickness effects, calibration errors — and how to mitigate them.
 :::
 
-:::{admonition} Hands-on tutorial
-:class: important
-🚧 The Google Colab notebook for this module will be linked here soon. In the meantime, see the [py4DSTEM tutorials repository](https://github.com/py4dstem/py4DSTEM_tutorials).
-:::
-
 ```{image} ../assets/cover-strain.jpg
 :alt: Schematic of nanobeam strain mapping — a converged probe scanned over a strained crystal produces diffraction patterns whose Bragg disk positions encode the local lattice vectors
 :width: 100%
