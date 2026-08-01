@@ -5,9 +5,12 @@ site:
   hide_title_block: true
 ---
 
-# Nanobeam 4DSTEM
+# Nanobeam Diffraction and 4D-STEM Analysis of Crystalline and Disordered Materials
 
-**Nanobeam Diffraction and 4D-STEM Analysis of Crystalline and Disordered Materials** — a Microscopy & Microanalysis short course.
+:::{div}
+:class: nbc-instructors-label
+Instructors
+:::
 
 :::{div}
 :class: nbc-organizers
@@ -21,6 +24,13 @@ Lawrence Berkeley National Laboratory
 **Ian MacLaren**
 University of Glasgow
 
+:::
+
+:::{admonition} Requirements — all participants
+:class: warning
+- **Bring a laptop** (any operating system — tablets are not recommended for the hands-on sessions).
+- **Internet access** is required; the room has WiFi, but conference WiFi can be slow, so open the tutorial links before each session starts.
+- **A free Google account** is needed to run the tutorials in [Google Colab](https://colab.research.google.com/). No software installation is required — Colab runs entirely in the browser. Before the course, sign in at [colab.research.google.com](https://colab.research.google.com/) once to check that your account works.
 :::
 
 :::{div}
@@ -46,12 +56,3 @@ Companion site for **Short Course X11** at [Microscopy & Microanalysis 2026](htt
 - Diffraction analysis of disordered or semicrystalline materials: polymer orientation, phase mapping, and pair distribution functions
 
 Use the sidebar (or the [agenda](./agenda.md)) to jump to the module pages — each has teaching notes, the hands-on Colab tutorial, and references for further reading.
-
-:::{div}
-:class: nbc-msa
-
-```{image} assets/msa-logo.png
-:alt: Microscopy Society of America
-```
-
-:::

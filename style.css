@@ -2,17 +2,17 @@
    nanobeam-course — custom theming on top of MyST book-theme.
    Loaded via `site.options.style` in myst.yml.
 
-   Accent: MSA blue rgb(20, 90, 220), lightened in dark mode
-   for contrast on the dark background.
+   Accent: dark red rgb(204,0,0) (matching the quantEM docs),
+   lightened in dark mode for contrast on the dark background.
    ============================================================ */
 
 :root {
-  --nbc-accent: rgb(21, 87, 205);
-  --nbc-accent-soft: rgba(21, 87, 205, 0.12);
+  --nbc-accent: rgb(204, 0, 0);
+  --nbc-accent-soft: rgba(204, 0, 0, 0.12);
 }
 html.dark {
-  --nbc-accent: rgb(96, 150, 250);
-  --nbc-accent-soft: rgba(96, 150, 250, 0.18);
+  --nbc-accent: rgb(240, 122, 158);
+  --nbc-accent-soft: rgba(240, 122, 158, 0.18);
 }
 
 /* ---------- Site title (upper-left) ---------- */
@@ -262,36 +262,46 @@ a.nbc-search-hit.active {
   white-space: nowrap;
 }
 
-/* ---------- MSA logo card ----------
-   The logo has a white background, so keep it on a white card in
-   both themes. */
-.nbc-msa {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 300px;
-  margin: 1.5rem 0;
-  padding: 1rem 1.5rem;
-  background: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 0.5rem;
+/* ---------- MSA logo (bottom of the left sidebar) ----------
+   Injected at runtime by scripts/patch_theme.py; light/dark variants
+   follow the html.dark toggle. */
+.nbc-msa-side {
+  display: block;
+  margin: 1.5rem 0.75rem 1rem 0.75rem;
+  max-width: 150px;
 }
-html.dark .nbc-msa {
-  border-color: rgba(255, 255, 255, 0.18);
+.nbc-msa-side img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
-.nbc-msa p {
-  margin: 0;
+html:not(.dark) .nbc-msa-side .nbc-msa-dark { display: none; }
+html.dark .nbc-msa-side .nbc-msa-light { display: none; }
+
+/* ---------- Article heading spacing ----------
+   With hide_title_block, the first heading otherwise sits flush
+   against the top bar. */
+article {
+  padding-top: 1.75rem;
 }
-.nbc-msa img {
-  display: block !important;
-  width: 100% !important;
-  height: auto !important;
-  max-width: 100% !important;
-  margin: 0 !important;
+
+/* Instructors label on the landing page */
+.nbc-instructors-label {
+  margin: 1.25rem 0 0 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  opacity: 0.6;
 }
 
 /* ---------- Agenda table ---------- */
 article table td,
 article table th {
   vertical-align: top;
+}
+/* keep time ranges ("15:00 – 16:00") on one line */
+article table td:first-child,
+article table th:first-child {
+  white-space: nowrap;
 }

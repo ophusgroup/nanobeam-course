@@ -26,10 +26,11 @@ A collected reading list for the whole course. Each topic page also has its own 
 | Package | Links |
 | --- | --- |
 | py4DSTEM | [GitHub](https://github.com/py4dstem/py4DSTEM) · [tutorials](https://github.com/py4dstem/py4DSTEM_tutorials) · [paper](https://doi.org/10.1017/S1431927621000477) |
-| quantEM | [GitHub](https://github.com/electronmicroscopy/quantem) |
+| quantEM | [docs](https://electronmicroscopy.github.io/quantem-docs/) · [GitHub](https://github.com/electronmicroscopy/quantem) |
 | pyxem | [GitHub](https://github.com/pyxem/pyxem) · [docs](https://pyxem.readthedocs.io/) · [orientation-mapping paper](https://doi.org/10.1016/j.ultramic.2022.113517) |
 | HyperSpy | [hyperspy.org](https://hyperspy.org/) |
-| abTEM | [GitHub](https://github.com/abTEM/abTEM) · [docs](https://abtem.github.io/) · [paper](https://doi.org/10.12688/openreseurope.13015.1) |
+| Kelvin_STEM | [GitHub](https://github.com/maclariz/Kelvin_STEM) |
+| abTEM | [docs](https://abtem.readthedocs.io/) · [GitHub](https://github.com/abTEM/abTEM) · [paper](https://doi.org/10.12688/openreseurope.13015.1) |
 
 ## Tutorials and slides
 

@@ -4,12 +4,7 @@ title: 2026 Agenda
 
 # 2026 Agenda
 
-**Sunday, August 2, 2026 · 8:30 AM – 5:30 PM CST**
-**Room S202 B · Baird Center, Milwaukee, WI**
-
-Session chair: Colin Ophus (Stanford University). Presenters: Stephanie Ribet (Lawrence Berkeley National Laboratory) and Ian MacLaren (University of Glasgow).
-
-Each module below links to its topic page, which contains the teaching material, the Google Colab tutorial, and references for further reading.
+**Sunday, August 2, 2026 · 8:30 AM – 5:30 PM CST · Room S202 B · Baird Center, Milwaukee, WI**
 
 | Time | Topic | Lead | Format |
 | --- | --- | --- | --- |
@@ -25,10 +20,6 @@ Each module below links to its topic page, which contains the teaching material,
 | 14:30 – 15:00 | ☕ Coffee break | | |
 | 15:00 – 16:00 | [Semicrystalline polymer flowline mapping](./topics/polymers.md) | Stephanie | Colab demo |
 | 16:00 – 17:00 | [Amorphous materials and pair distribution functions](./topics/amorphous-pdf.md) | Colin | Colab demo |
-
-:::{tip}
-**Bring a laptop!** The hands-on sessions run in [Google Colab](https://colab.research.google.com/), so you only need a browser and a Google account — no local installation required. Conference WiFi can be slow, so we recommend opening the Colab notebooks (linked from each topic page) before the session starts.
-:::
 
 ## Logistics
 
