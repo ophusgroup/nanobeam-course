@@ -42,4 +42,4 @@ A healthy ecosystem of open-source Python packages has grown up around 4D-STEM a
 | ML clustering / decomposition | pyxem + scikit-learn, Kelvin_STEM |
 | Amorphous / PDF analysis | py4DSTEM, quantEM |
 | Simulation | abTEM |
-| Ptychography / phase retrieval | py4DSTEM, quantEM, abTEM (simulation) |
+| Ptychography / phase retrieval | [quantEM](https://github.com/electronmicroscopy/quantem-tutorials/tree/main/tutorials/diffractive_imaging), [PtyRAD](https://ptyrad.readthedocs.io/en/latest/), [phaser](https://hexane360.github.io/phaser/dev/) |
