@@ -9,7 +9,7 @@ site:
 
 
 
-:::{admonition} WiFi Network: M2026
+:::{admonition} WiFi Network: M&M2026
 :class: warning
 **Password**: melbuild_JP_20th
 :::
