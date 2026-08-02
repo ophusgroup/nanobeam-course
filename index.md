@@ -7,6 +7,16 @@ site:
 
 # Nanobeam Diffraction and 4D-STEM Analysis of Crystalline and Disordered Materials
 
+
+
+:::{admonition} WiFi Network: M2026
+:class: warning
+**Password**: melbuild_JP_20th
+:::
+
+
+
+
 :::{div}
 :class: nbc-instructors-label
 Instructors
